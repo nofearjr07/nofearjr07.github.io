@@ -10,6 +10,10 @@
         text-align: center;
     }
     
+    section {
+        margin: 20px 0px 20px 0px;
+    }
+    
     header {
         position: fixed;
         background-color: #373261;
@@ -33,7 +37,7 @@
         position: absolute;
     }
     
-    img {
+    img.img00 {
         border: solid 3px white;
         width: 80%;
         height: 290px;
@@ -51,4 +55,22 @@
         left: 29%;
         max-height: max-content;
         box-shadow: 5px 10px 10px #69FFF1;
+    }
+    
+    article {
+        font-size: 18px;
+    }
+    
+    .a10 {
+        margin-top: 20px;
+    }
+    
+    img.img01 {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        box-shadow: 5px 3px 10px #69FFF1;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        ;
     }

@@ -24,13 +24,32 @@
         z-index: 5;
     }
     
-    #left {
+    .left {
         position: fixed;
         float: left;
         background-color: slategrey;
         z-index: 3;
         width: 28%;
         height: 100%;
+    }
+    
+    .left02 {
+        position: fixed;
+        bottom: 20px;
+        /* background-color: rgb(27, 199, 4); */
+        z-index: 4;
+        width: 130%;
+        top: 500px;
+        font-family: Verdana;
+        font-weight: 900;
+        font-size: 25px;
+        text-align: left;
+        left: 20px;
+    }
+    
+    li {
+        list-style: none;
+        line-height: 35px;
     }
     
     #leftDiv {
@@ -55,10 +74,15 @@
         left: 29%;
         max-height: max-content;
         box-shadow: 5px 10px 10px #69FFF1;
+        margin-bottom: 200px;
     }
     
     article {
-        font-size: 18px;
+        font-size: 20px;
+    }
+    
+    .txt {
+        font-size: 20px;
     }
     
     .a10 {
@@ -72,5 +96,42 @@
         box-shadow: 5px 3px 10px #69FFF1;
         margin-bottom: 20px;
         margin-left: 10px;
-        ;
+    }
+    
+    .a {
+        width: 10%;
+        position: relative;
+        left: 35%;
+        background-color: rgb(10, 126, 10);
+        border-radius: 15px;
+        border-style: groove;
+        width: 195px;
+        border-width: 3px;
+        border-color: rgb(255, 238, 3);
+        border-image: initial;
+        padding: 15px;
+        border-radius: 50px 20px;
+    }
+    
+    .a:hover {
+        font-weight: 1000;
+    }
+    
+    .b:hover {
+        font-weight: 1000;
+    }
+    /* NAO FUNFA O bbbbbbbbbb PQ ?????????? */
+    
+    .b {
+        width: 195px;
+        position: relative;
+        left: 50%;
+        z-index: -1;
+        background-color: rgb(10, 126, 10);
+        border-radius: 15px;
+        border-color: #a5f7ec;
+        border-style: groove;
+        border-width: 3px;
+        padding: 15px;
+        border-radius: 50px 20px;
     }
